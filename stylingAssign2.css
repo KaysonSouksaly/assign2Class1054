@@ -1,0 +1,68 @@
+/* General styling */
+header{
+    background-image: url(./image/LeagueofLegends_ArcaneEnemySoundtrackSongImagineDragonsJID-min-1536x864.jpg);
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+}
+div{
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+/* Text styling */
+
+p{
+    line-height: 2;
+}
+
+@font-face {
+    font-family: firstFont;
+    src: url(../assign2Class1054/fonts/SuperFuntime-3zpLX.ttf);
+}
+@font-face {
+    font-family: secondFont;
+    src: url(../assign2Class1054/fonts/EdgeOfTheGalaxyRegular-OVEa6.otf);
+}
+@font-face {
+    font-family: thirdFont;
+    src: url(../assign2Class1054/fonts/Roadrage-owgBd.otf);
+}
+
+h1, h2{
+    color: red;
+    font-weight: bolder;
+}
+
+.font1{
+    font-family: firstFont;
+}
+.font2{
+    font-family: secondFont;
+    letter-spacing: 2px;
+}
+.font3{
+    color: yellow;
+    font-family: firstFont;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+span{
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+    font-family: thirdFont;
+    letter-spacing: 5px;
+    padding: 0px 5px; 
+}
