@@ -27,6 +27,7 @@ body{
 
 p{
     line-height: 2;
+    letter-spacing: 3px;
 }
 
 @font-face {
@@ -57,19 +58,16 @@ h2{
 }
 .font2{
     font-family: secondFont;
-    letter-spacing: 2px;
 }
 .font3{
     color: yellow;
     font-family: firstFont;
-    letter-spacing: 2px;
     font-style: italic;
 }
 span{
-    font-size: 30px;
+    font-size: 1em;
     font-style: italic;
     color: red;
     font-family: thirdFont;
-    letter-spacing: 5px;
     padding: 0px 5px; 
 }
